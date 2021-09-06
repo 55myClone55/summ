@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+
+body {
+font-size: 16px;
+}
+
+.body-bg {
+background-size: cover;
+}
+
+.cv{
+margin-top: 50px;
+border: 1px,solid #4b4b4b;
+box-shadow: 1px 1px 1px #000;
+}
+
+.cv-left{
+    background: #4b4b4b;
+    min-height: 30vh;
+    color: #fff;
+}
+
+.cv-right{
+    background: #fff;
+    min-height: 30vh;
+    color: #131313;
+}
+
+
+.cv-left a{
+    color: #fff;
+}
+
+.cv-left a:hover{
+    text-decoration: none;
+}
+
+.cv-left ul{
+    line-height: 175%;
+    padding-left: 30px;
+}
+
+.cv-left ul.contacts-block{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cv-left .address{
+font-style: italic;
+}
+.mb-5{
+    font-family:sans-serif;
+    line-height: 175%;
+}
+
+@media (max-width: 991.98px){
+.cv-left h1,.cv-left h2,.cv-left h3,.cv-left h4{
+    font-size: 1.3rem;
+}
+.cv-left ul{
+    line-height: 150%;
+    padding-left: 25px;
+}
+}
+
+@media (max-width: 575.98px){
+    .container{
+        margin-bottom: 0;
+    }
+    .cv{
+        margin-top: 0;
+    }
+    .photo-block img{
+        display: block;
+        max-width: 50%;
+        margin: 20px auto;
+    }
+}
+    
